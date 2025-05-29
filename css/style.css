@@ -351,15 +351,15 @@ template {
 
 @font-face {
     font-family: 'Lobster';
-    src: url("fonds/Lobster-Regular.ttf");
+    src: url("/fonds/Lobster-Regular.ttf");
 }
 @font-face {
     font-family: 'JejuHallasan'; /*Шрифты для навигации*/
-    src: url("fonds/JejuHallasan-Regular.ttf");
+    src: url("/fonds/JejuHallasan-Regular.ttf");
 }
 @font-face {
     font-family: 'Kyiv*Type Serif'; /*Шрифты для навигации*/
-    src: url(".//fonds/KyivTypeSerif-VarGX.ttf");
+    src: url("/fonds/KyivTypeSerif-VarGX.ttf");
 }
 
 .main{
@@ -378,10 +378,40 @@ template {
     max-height: 85px;
     font-size: 32px;
     font-family: "Lobster";
-
+    cursor: pointer;
     margin-top: 69px;
     margin-left: 85px;
+
 }
+
+
+
+
+
+
+.logo_gradi {
+	background: linear-gradient(-45deg, #d2cdeb, #6355a4, #ddc09f, #f3efea);
+	background-size: 300%;
+
+
+	
+	
+	
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 10s ease-in-out infinite;
+	-moz-animation: animated_text 10s ease-in-out infinite;
+	-webkit-animation: animated_text 10s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+ 0% { background-position: 0px 50%; }
+ 50% { background-position: 100% 50%; }
+ 100% { background-position: 0px 50%; }
+}
+
+
+
 .main_nav{
       margin-top: 145px;
     margin-left: 164px;
