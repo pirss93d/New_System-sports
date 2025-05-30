@@ -381,7 +381,7 @@ template {
     margin-left: 85px;
 
 }
-.logo_gradi {
+/* .logo_gradi {
 	background: linear-gradient(-45deg, #d2cdeb, #6355a4, #ddc09f, #f3efea);
 	background-size: 300%;
 	-webkit-background-clip: text;
@@ -389,13 +389,13 @@ template {
 	animation: animated_text 10s ease-in-out infinite;
 	-moz-animation: animated_text 10s ease-in-out infinite;
 	-webkit-animation: animated_text 10s ease-in-out infinite;
-}
+} */
 
-@keyframes animated_text {
+/* @keyframes animated_text {
  0% { background-position: 0px 50%; }
  50% { background-position: 100% 50%; }
  100% { background-position: 0px 50%; }
-}
+} */
 
 .main_nav{
     margin-top: 8px;
@@ -417,15 +417,16 @@ template {
     font-size: 24px;
     width: 225px;
     height: 68px;
-     transition: 1s;
+    transition: 1s;
    
 }
 .main_nav-info:hover{
-   animation: block_info 0.5s ease-in-out infinite;
+   animation: block_info 1s ease-in-out infinite;
     opacity: 0.5;
     color: rgb(13, 154, 189);
     
 }
+
 
 .main_block-content{
     display: flex;
@@ -469,7 +470,7 @@ font-size: 45px;
 .main_info-block:hover{
     
 
-    animation: block_info 0.5s ease-in-out infinite;
+    animation: block_info 1s ease-in-out infinite;
 }
 
 @keyframes block_info {
@@ -503,8 +504,6 @@ font-size: 45px;
     
 }
  .help:hover{
-
- 
     color: aqua;
 
  }
