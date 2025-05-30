@@ -369,7 +369,7 @@ template {
     max-width: 1440px;
     height: 1024px;
     background-color: #4C4A4A;
-    border: 1px solid yellow;
+    border: 1px solid rgb(238, 12, 151);
     color:#ffffff;
     
 }
@@ -430,11 +430,14 @@ template {
     font-size: 24px;
     width: 225px;
     height: 68px;
+     transition: 1s;
    
 }
 .main_nav-info:hover{
    animation: block_info 0.5s ease-in-out infinite;
     opacity: 0.5;
+    color: rgb(13, 154, 189);
+    
 }
 
 
@@ -462,14 +465,36 @@ font-size: 45px;
     font-size: 40px;
     width: 229px;
     height: 48px;
+     transition: 1s;
 }
 .main_info-block:nth-child(2){
     font-family: 'Kyiv*Type Serif';
     font-size: 40px;
     width: 139px;
     height: 48px;
+     transition: 1s;
+
    
 }
+
+
+.main_info-block:hover{
+    color:rgb(16, 160, 129)
+
+}
+/* .info_img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border: 1px solid wheat;
+    border-radius: 50%;
+
+} */
+
+
+
+
+
 .main_info-block:hover{
     
 
@@ -509,10 +534,12 @@ font-size: 45px;
     cursor: pointer;
     margin-right:207px ;
     margin-bottom: 63px;
+    transition: 1s;
     
 }
  .help:hover{
-    font-size: 32px;
+
+ 
     color: aqua;
-    animation: block_info 0.5s ease-in-out infinite;
+
  }
