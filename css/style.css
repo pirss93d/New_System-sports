@@ -485,4 +485,9 @@ font-size: 45px;
     cursor: pointer;
     margin-right:207px ;
     margin-bottom: 63px;
+    
 }
+ .help:hover{
+    font-size: 32px;
+    color: aqua;
+ }
