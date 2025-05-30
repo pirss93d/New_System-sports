@@ -348,7 +348,6 @@ template {
  display: none;
 }
 
-
 @font-face {
     font-family: 'Lobster';
     src: url("./../fonds/Lobster-Regular.ttf");
@@ -361,9 +360,6 @@ template {
     font-family: 'Kyiv*Type Serif'; /*Шрифты для навигации*/
     src: url("./../fonds/KyivTypeSerif-VarGX.ttf");
 }
-    
-
-
 .main{
     margin: 0 auto;
     max-width: 1440px;
@@ -385,16 +381,9 @@ template {
     margin-left: 85px;
 
 }
-
-
 .logo_gradi {
 	background: linear-gradient(-45deg, #d2cdeb, #6355a4, #ddc09f, #f3efea);
 	background-size: 300%;
-
-
-	
-	
-	
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	animation: animated_text 10s ease-in-out infinite;
@@ -407,8 +396,6 @@ template {
  50% { background-position: 100% 50%; }
  100% { background-position: 0px 50%; }
 }
-
-
 
 .main_nav{
     margin-top: 8px;
@@ -440,15 +427,13 @@ template {
     
 }
 
-
-
-
 .main_block-content{
     display: flex;
     flex: wrap;
     justify-content: space-between;
+    margin: 0 auto;
     margin-top: 167px;
-    margin-left: 371px;
+    /* margin-left: 371px; */
     /* border: 1px solid greenyellow; */
     max-width: 699px;
     max-height: 87px;
@@ -474,26 +459,12 @@ font-size: 45px;
     height: 48px;
      transition: 1s;
 
-   
 }
-
 
 .main_info-block:hover{
     color:rgb(16, 160, 129)
 
 }
-/* .info_img{
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    border: 1px solid wheat;
-    border-radius: 50%;
-
-} */
-
-
-
-
 
 .main_info-block:hover{
     
@@ -512,12 +483,6 @@ font-size: 45px;
         opacity: 0.3;
     }
 }
-
-
-
-
-
-
 
 .main_block-help{
     display: flex;
