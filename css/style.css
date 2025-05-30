@@ -468,7 +468,29 @@ font-size: 45px;
     font-size: 40px;
     width: 139px;
     height: 48px;
+   
 }
+.main_info-block:hover{
+    animation: block_info 2s ease-in-out infinite;
+}
+
+@keyframes block_info {
+    from{
+        opacity: 0.9;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 0.3;
+    }
+}
+
+
+
+
+
+
 
 .main_block-help{
     display: flex;
