@@ -469,20 +469,3 @@ font-size: 45px;
     width: 139px;
     height: 48px;
 }
-
-.main_block-help{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: end;
-    justify-content: end;
-    max-width: 1440px;
-    height: 596px;
-    /* border: 1px solid rgb(224, 51, 8); */
-    font-size: 24px;
-    font-family:'Kyiv*Type Serif'; 
-}
-.help{
-    cursor: pointer;
-    margin-right:207px ;
-    margin-bottom: 63px;
-}
