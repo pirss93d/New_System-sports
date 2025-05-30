@@ -351,16 +351,18 @@ template {
 
 @font-face {
     font-family: 'Lobster';
-    src: url("/./fonds/Lobster-Regular.ttf");
+    src: url("./../fonds/Lobster-Regular.ttf");
 }
 @font-face {
     font-family: 'JejuHallasan'; /*Шрифты для навигации*/
-    src: url("/fonds/JejuHallasan-Regular.ttf");
+    src: url("./../fonds/JejuHallasan-Regular.ttf");
 }
 @font-face {
     font-family: 'Kyiv*Type Serif'; /*Шрифты для навигации*/
-    src: url("/fonds/KyivTypeSerif-VarGX.ttf");
+    src: url("./../fonds/KyivTypeSerif-VarGX.ttf");
 }
+    
+
 
 .main{
     margin: 0 auto;
@@ -374,8 +376,8 @@ template {
 .main_logo-text{
     display: flex;
     align-items: center;
-    max-width: 257px;
-    max-height: 85px;
+    width: 257px;
+    height: 68px;
     font-size: 32px;
     font-family: "Lobster";
     cursor: pointer;
@@ -383,10 +385,6 @@ template {
     margin-left: 85px;
 
 }
-
-
-
-
 
 
 .logo_gradi {
@@ -413,7 +411,7 @@ template {
 
 
 .main_nav{
-      margin-top: 145px;
+    margin-top: 8px;
     margin-left: 164px;
     display: flex;
     flex-wrap: wrap;
@@ -425,8 +423,6 @@ template {
 .main_nav-info{
     cursor: pointer;
     display: flex;
-
- 
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -440,9 +436,7 @@ template {
    
     opacity: 0.5;
 }
-/* @keyframes  {
-    
-} */
+
 
 
 
@@ -474,4 +468,21 @@ font-size: 45px;
     font-size: 40px;
     width: 139px;
     height: 48px;
+}
+
+.main_block-help{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: end;
+    max-width: 1440px;
+    height: 596px;
+    /* border: 1px solid rgb(224, 51, 8); */
+    font-size: 24px;
+    font-family:'Kyiv*Type Serif'; 
+}
+.help{
+    cursor: pointer;
+    margin-right:207px ;
+    margin-bottom: 63px;
 }
