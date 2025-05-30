@@ -361,6 +361,7 @@ template {
     src: url("./../fonds/KyivTypeSerif-VarGX.ttf");
 }
 .main{
+   
     margin: 0 auto;
     max-width: 1440px;
     height: 1024px;
@@ -446,12 +447,19 @@ template {
 .main_info-block:hover{
 font-size: 45px;
 }
+
+.main_info-block a {
+color: #ffffff;
+text-decoration: none;
+
+}
 .main_info-block:nth-child(1){
-    font-family: 'Kyiv*Type Serif';
-    font-size: 40px;
-    width: 229px;
-    height: 48px;
+font-family: 'Kyiv*Type Serif';
+font-size: 40px;
+width: 229px;
+height: 48px;
      transition: 1s;
+  
 }
 .main_info-block:nth-child(2){
     font-family: 'Kyiv*Type Serif';
@@ -459,10 +467,9 @@ font-size: 45px;
     width: 139px;
     height: 48px;
      transition: 1s;
-
 }
 
-.main_info-block:hover{
+.main_info-block a:hover{
     color:rgb(16, 160, 129)
 
 }
