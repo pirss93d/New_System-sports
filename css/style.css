@@ -351,15 +351,15 @@ template {
 
 @font-face {
     font-family: 'Lobster';
-    src: url("/./fonds/Lobster-Regular.ttf");
+    src: url("fonds/Lobster-Regular.ttf");
 }
 @font-face {
     font-family: 'JejuHallasan'; /*Шрифты для навигации*/
-    src: url("/fonds/JejuHallasan-Regular.ttf");
+    src: url("fonds/JejuHallasan-Regular.ttf");
 }
 @font-face {
     font-family: 'Kyiv*Type Serif'; /*Шрифты для навигации*/
-    src: url("/fonds/KyivTypeSerif-VarGX.ttf");
+    src: url("fonds/KyivTypeSerif-VarGX.ttf");
 }
 
 .main{
